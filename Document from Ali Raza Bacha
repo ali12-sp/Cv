@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+        h2 {
+            color: #34495e;
+            font-size: 1.5em;
+            margin-top: 1em;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5em;
+        }
+        p {
+            font-size: 1em;
+            margin: 0.5em 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #3498db;
+            color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .section-title {
+            font-size: 1.2em;
+            color: #2980b9;
+            margin-top: 20px;
+            border-bottom: 1px solid #2980b9;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>John Doe</h1>
+        <p>Email: alirazabacha060@gmail.com | Phone: (12345678)</p>
+
+        <h2 class="section-title">Education</h2>
+        <table>
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>ID</th>
+            </tr>
+            <tr>
+                <td>Bachelor of Science in Computer Science</td>
+                <td>City University of Science and Informatio Technology Peshawar</td>
+                <td>10578</td>
+            </tr>
+            <tr>
+                <td>Master of Science in Software Engineering</td>
+                <td>city University</td>
+                <td>2022</td>
+            </tr>
+        </table>
+
+        <h2 class="section-title">Work Experience</h2>
+        <table>
+            <tr>
+                <th>Job Title</th>
+                <th>Company</th>
+                <th>Years</th>
+            </tr>
+            <tr>
+                <td>Software Developer</td>
+                <td>Tech Solutions Inc.</td>
+                <td>2022 - Present</td>
+            </tr>
+            <tr>
+                <td>Intern</td>
+                <td>Innovative Solutions</td>
+                <td>2021 - 2022</td>
+            </tr>
+        </table>
+
+        <h2 class="section-title">Skills</h2>
+        <ul>
+            <li>Programming Languages: Python, JavaScript, C++</li>
+            <li>Web Development: HTML, CSS, JavaScript</li>
+            <li>Database Management: MySQL, MongoDB</li>
+        </ul>
+
+        <h2 class="section-title">Projects</h2>
+        <ul>
+            <li><strong>Project Management Tool:</strong> Developed a web-based project management tool using React and Node.js.</li>
+            <li><strong>Portfolio Website:</strong> Created a personal portfolio website showcasing various projects and skills.</li>
+        </ul>
+    </div>
+</body>
+</html>
